@@ -1,0 +1,140 @@
+html {
+    font-size: 80%;
+}
+body {
+   padding: 1rem;
+    
+}
+        a, a:link, a:active {
+            font-size: 1.2rem;
+            color: black;
+            font-family:'Courier New', Courier, monospace;
+            text-decoration: none;
+            line-height: 1em;
+    
+        }
+        a:hover, a.highlighted {
+            font-size: 1.2rem;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: none;
+            line-height: 1em;
+            color: rgb(197, 133, 15);
+            text-decoration: underline;
+        }
+
+        h1 {
+            font-family:sans-serif;
+            font-size: 1.95rem;
+            line-height: 1em;
+            font-weight: 500;
+    
+        }
+        h2 {
+            font-family:sans-serif;
+            font-size: 1.5rem;
+            line-height: 1em;
+            font-weight: 200;
+            color: black;
+        }
+        h3 {
+            font-family:sans-serif;
+            font-size: 1.5rem;
+            line-height: 1em;
+            font-weight: lighter;
+            
+        }
+
+        p {
+            font-family:sans-serif;
+            font-size: 1rem;
+            line-height: 1.5em;
+            font-weight: lighter;
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            padding:0.5rem;
+        }
+        figcaption {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 1rem;
+            line-height: 1em;
+            text-align: right ;
+            
+        }
+
+        .displayTextBanner{
+            font-family:sans-serif;
+            font-size: 1.3rem;
+            line-height: 1.5rem;
+            font-weight: lighter;
+            font-style: oblique;
+        }
+        
+.menu-bar {
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+    padding:1em;
+    list-style: none;
+    gap: 1rem;
+}
+.menu-bar li {
+    flex-grow: 1;
+    align-items: center;
+
+}
+
+
+section {
+    margin-left: 2rem;
+    margin-right: 7rem;
+    padding: 1rem;
+}
+
+figure {
+    margin-left: 9em;
+    margin-right: 2em;
+   
+}
+
+@media only screen and (min-width: 1000px) {
+    html {
+        font-size: 120%;
+    }
+    section {
+        margin-left: 5rem;
+        margin-right: 15rem;
+        max-width: 700px;
+
+    }
+    .image-grid {
+        display: flex;
+        gap:2rem;
+          
+    }
+    .image-grid > * {
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+    .left-image {
+        flex: 1;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+    .right-image {
+        flex: 1;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+    .hero-image {
+        display: block;
+        float:right;
+        width: 1rem;
+    }    
+
+}
+  
+
+

@@ -1,0 +1,115 @@
+html {
+    font-size: 80%;
+}
+body {
+    padding: 1rem;
+     
+ }
+         a, a:link, a:active {
+             font-size: 1.2rem;
+             color: black;
+             font-family:'Courier New', Courier, monospace;
+             text-decoration: none;
+             line-height: 1em;
+     
+         }
+         a:hover, a.highlighted {
+             font-size: 1.2rem;
+             font-family: 'Courier New', Courier, monospace;
+             text-decoration: none;
+             line-height: 1em;
+             color: rgb(197, 133, 15);
+             text-decoration: underline;
+         }
+ 
+         h1 {
+             font-family:sans-serif;
+             font-size: 1.95rem;
+             line-height: 1em;
+             font-weight: 500; 
+             padding: 1.5em;
+             margin-left: 2rem;
+         }
+         
+         h2 {
+             font-family:sans-serif;
+             font-size: 4rem;
+             line-height: 1em;
+             font-weight: lighter;
+             padding-left: 4rem;
+
+          
+         }
+ 
+         p {
+             font-family:sans-serif;
+             font-size: 1rem;
+             line-height: 1.5em;
+             font-weight: lighter;
+         }
+         img {
+             display: block;
+             width: 100%;
+             height: auto;
+             padding:0.5rem;
+         }
+         figcaption {
+             font-family:'Courier New', Courier, monospace;
+             font-size: 1rem;
+             line-height: 1em;
+             text-align: right ;
+             
+         }
+ 
+         .displayTextBanner{
+             font-family:sans-serif;
+             font-size: 1.3rem;
+             line-height: 1.5rem;
+             font-weight: lighter;
+             font-style: oblique;
+            
+         }
+         
+ .menu-bar {
+     display: flex;
+     flex-wrap: wrap;
+     margin:0;
+     padding:1em;
+     list-style: none;
+     gap: 1rem;
+ }
+    .menu-bar li {
+     flex-grow: 1;
+     align-items: center;
+ 
+    }
+
+
+.banner {
+    display:grid;
+    grid-template-columns: 450px auto;
+}
+.banner > * {
+    margin-right: 2.5em;
+    text-align: left;
+}
+
+
+    @media only screen and (min-width: 1000px) {
+        html {
+            font-size: 120%;
+        }
+       figure {
+        margin-left: 5rem;
+        margin-right: 5rem;
+       }
+       .banner {
+        display:grid;
+        grid-template-columns: 600px 600px;
+    }
+      .banner > * {
+        margin-right: 2.5em;
+        text-align: left;
+    }
+        
+    }
