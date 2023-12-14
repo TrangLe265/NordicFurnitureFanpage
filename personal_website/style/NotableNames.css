@@ -1,5 +1,5 @@
 html {
-    font-size: 80%;
+    font-size: 100%;
 }
 body {
     padding: 1rem;
@@ -97,7 +97,7 @@ body {
 
     @media only screen and (min-width: 1000px) {
         html {
-            font-size: 120%;
+            font-size: 130%;
         }
        figure {
         margin-left: 5rem;
